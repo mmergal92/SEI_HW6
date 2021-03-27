@@ -1,0 +1,35 @@
+h1{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+p{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+table{
+    border: 2px solid green; 
+    box-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    outline: none;
+    border: 2px solid yellowgreen;
+    border-radius: 35%;
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: transparent;
+    color: crimson;
+  }
+.calcDisplay{
+    box-align:right;
+}
